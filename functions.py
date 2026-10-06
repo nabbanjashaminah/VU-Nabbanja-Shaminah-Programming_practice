@@ -1,0 +1,38 @@
+def factorial(n):
+    if n == 0:  # Base case
+        return 1
+    else:       # Recursive case
+        return n * factorial(n - 1)
+
+print(factorial(5))
+
+def factorial(n):
+    if n == 0: # Base case
+        return 1
+    else:
+        return n *factorial(n-1)
+    print(factorial(2))
+
+
+def function(n):
+    if n==4:
+        return n
+    else:
+        return 2*function(n+1)
+
+print(function(2)) 
+
+def sq_value(num):
+    return num ** 2
+
+print (sq_value(2))
+print (sq_value(-4))
+
+def myfun(x,y=20):
+    print("x:",x)
+    print("y:",y)
+
+myfun(12)
+    
+
+    
